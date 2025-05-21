@@ -91,6 +91,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\phonetics-icon.png" />
     <Content Include="english-app-icon.ico" />
     <None Include="Resources\phonemes-icon.png" />
   </ItemGroup>

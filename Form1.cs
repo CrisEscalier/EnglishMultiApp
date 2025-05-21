@@ -58,6 +58,7 @@ namespace EnglishMultiApp
                 }
             }
         }
+        
         private void PureVowelButton_MouseEnter(object sender, EventArgs e)
         {
             PureVowelButton.BackColor = Color.FromArgb(166, 68, 93);
@@ -162,5 +163,12 @@ namespace EnglishMultiApp
             PhonemePanel.Visible = true;
         }
 
+        private void ShowTrancriptionPanel(object sender, EventArgs e)
+        {
+            SlidePanel.BackColor = Color.FromArgb(180,70,88);
+            TranscriptionPanel.Visible = true;
+            //PhonemePanel.Visible = false;
+            this.BackColor = Color.FromArgb(180, 78, 88);
+        }
     }
 }
