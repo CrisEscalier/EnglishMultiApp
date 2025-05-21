@@ -55,5 +55,13 @@ namespace EnglishMultiApp
                 }
             }
         }
+
+        private void ShowTrancriptionPanel(object sender, EventArgs e)
+        {
+            SlidePanel.BackColor = Color.FromArgb(180,70,88);
+            TranscriptionPanel.Visible = true;
+            //PhonemePanel.Visible = false;
+            this.BackColor = Color.FromArgb(180, 78, 88);
+        }
     }
 }
